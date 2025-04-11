@@ -198,7 +198,8 @@ uploadData_NIdb(indicatorData = updatedIndicatorData)
 **CaptureModels.R** - Runs the CMR (capture-mark-recapture) model (capture.models.dna) for each regional level, to estimate Arctic fox abundance.  
 **wrangleOutput.R** - Formats the output of the CMR models, and conforms the data into a tidy frame. Calls getMovAvgProps.R and getMovAvgLitters.R.  
 **getMovAvgProps.R** - Calculates the 3-year moving average proportion of Arctic fox litter size per spatial unit.  
-**getMovAvgLitt.R** - Calculates the 3-year moving average Arctic fox litter size per region.  
+**getMovAvgLitters.R** - Calculates the 3-year moving average Arctic fox litter size per region.  
+**getMovAvgNhat.R** - Calculates the 3-year moving average of estimated Arctic fox abundance per region.  
 **estimateAbundance.R** - Calculates 3-year moving averages, and calculates abundance estimates for the specified spatial scale. Sorts and conforms data.  
 **downloadData_NIdb.R** - Function to download specific indicator data from the Nature Index database.  
 **uploadData_NIdb.R** - Function to upload updated indicator data to the Nature Index database.  
